@@ -28,8 +28,17 @@ body {
     text-align: right;
     font-size: 15px;
     color: rgb(104, 104, 104);
-
 }
+
+#material-symbols-outlined-orange{
+    vertical-align:top;
+    text-align: right;
+    font-size: 20px;
+    color: #ff9966;
+    padding-right: 2px;
+}
+
+
 
 .container {
     /* max-width: 1400px; */
@@ -192,6 +201,7 @@ header {
     font-weight:700;
     color: #66cc99;
     letter-spacing: 2px;
+    padding-left: 2px;
 
 }
 
@@ -238,7 +248,7 @@ text-align: center;
     font-size: 15px;
     vertical-align: baseline;
     align-items: center;
-    color: #8b8b8b;
+    color: #616161;
     
 }
 
@@ -267,7 +277,7 @@ text-align: center;
     margin-bottom: 4px;
     display: grid;
     /* grid-template-columns: 120px 1.5fr 30px; */
-    line-height: 2rem;
+    line-height: 1.5rem;
     align-items: center;
     gap: 15px;
     font-size: 17px;
@@ -278,12 +288,18 @@ text-align: center;
 
 .skill-label2 {
     /* font-weight: bold; */
-    font-size: 15px;
+    font-size: 17px;
     vertical-align: baseline;
     align-items: center;
-    color: #999999;
+    color: #777777;
 
     
+}
+.skill-label3{
+    color: #ff9966;
+    font-weight: 600;
+
+
 }
 
 
@@ -616,6 +632,7 @@ margin-bottom: 8px;
 
 
 #btnGototop {
+    vertical-align:top;
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 80px; /* Place the button at the bottom of the page */
@@ -632,6 +649,7 @@ margin-bottom: 8px;
     border-radius: 0 px; /* Rounded corners */
     font-size: 30px; /* Increase font size */
     align-items: center;
+    box-shadow: #646464 2px 2px 5px;
   }
   
   #btnGototop:hover {
@@ -822,5 +840,4 @@ margin-bottom: 8px;
   /* .highlight {
     background-color: yellow;
   } */
-
 
