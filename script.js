@@ -162,5 +162,3 @@ var btn = document.getElementById("BtnPlayPause");
 
 
 
-  
-  
